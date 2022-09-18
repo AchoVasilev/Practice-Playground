@@ -9,11 +9,11 @@ class Program
 
             var size = int.Parse(Console.ReadLine());
 
-            var result = LongestSubstringKDistinct(size, charArr);
+            var result = ProcessCharArray(size, charArr);
             Console.WriteLine(result);
         }
         
-        private static int LongestSubstringKDistinct(int size, char[] charArr)
+        private static int ProcessCharArray(int size, char[] charArr)
         {
             var windowStart = 0;
             var maxLenght = 0;
